@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>College Outdoor Events</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+    *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+        body{
+             background-color:#f5f9ff;
+            color:#333;
+            line-height:1.6;
+            padding: 20px;
+        }
+        .container{
+         max-width:1000px;
+            margin: 0 auto;
+            background:rgb(255, 255, 255);
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        header{ background: linear-gradient(135deg, #3498db, #2c3e50);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;}
+        h1{
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+
+        }
+        .events h3{
+             color: #2c3e50;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+        
+        .events p{
+margin-bottom: 15px;
+            color: #555;
+        }
+        .subtitle{
+            font-size: 1.2rem;
+            opacity: 0.9;}
+        .details{ background: #e8f4ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;}
+        .events{
+            padding:30px;
+        }
+        .event{
+            display: flex;
+            margin-bottom: 30px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);}
+        .event-content{
+            flex: 2;
+            padding: 20px;
+        }
+        .event-image{
+            flex: 1;
+            min-height: 200px;
+            background: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+            font-size: 1rem;
+            padding: 20px;}
+        .register-btn { 
+            display : inline-block;
+            background: #3498db;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top:10px;
+            transition:background 0.3s;}
+        .detail-item{display: flex;
+            margin-bottom: 8px;}
+        .detail-icon{width:25px;
+            color: #3498db;}
+        .register-btn:hover{
+            background: #2980b9;
+        }
+       footer{
+ background: #2c3e50;
+            color:white;
+            text-align:center;
+            padding: 20px;
+            margin-top : 20px;
+        }
+        .contact{
+             margin-bottom:15px;
+        }
+        .social-icon{
+        display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top : 15px;
+        }
+        .social-icon a {color: white;
+            font-size: 1.5rem;}
+        @media (max-width: 768px) {
+            .event {
+                flex-direction: column;
+            }
+            
+            .event-image {
+                min-height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nirvana Tech Fest 2025 </h1>
+        <p class="subtitle">Join us for fun, food and events!:></p>
+    </header>
+        
+            <div class="event"> </div>
+                <div class="event-content">
+                    <h3>Food and Games Stall</h3>
+                    <p class = "subtitle">Experience a variety of different food and games together!</p>
+                    <div class="details">
+                        <div class="detail-items">
+                            <span class="detail-icon"><i class="fas fa-clock"></i></span>
+                            <span>9:00 am to 12:00pm on 17 oct,</span>
+                        <div class="detail-item">
+                            <span class="detail-icon"><i class="fas fa-map-marker-alt"></i></span>
+                            <span>Main Ground</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon"><i class="fas fa-hourglass-half"></i></span>
+                            <span>Ongoing</span>
+                        </div>
+                    </div>
+                    <a href="#" class="register-btn">Register to participate in stalls</a>
+                </div>           
+
+              
+            <div class="event"> </div>
+                <div class="event-content">
+                    <h3>Treasure Hunt</h3>
+                    <p class = "subtitle">Follow the clues, solve the puzzles, and be the first to find the hidden treasure!!</p>
+                    <div class="details">
+                        <div class="detail-items">
+                            <span class="detail-icon"><i class="fas fa-clock"></i></span>
+                            <span>12:00pm to 3:00pm on 17 oct</span>
+                        <div class="detail-item">
+                            <span class="detail-icon"><i class="fas fa-map-marker-alt"></i></span>
+                            <span>College Campus</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon"><i class="fas fa-hourglass-half"></i></span>
+                            <span>Ongoing</span>
+                        </div>
+                    </div>
+                    <a href="#" class="register-btn">Register to participate in Treasure Hunt</a>
+                </div>            </div>
+
+                
+            <div class="event"> </div>
+                <div class="event-content">
+                    <h3>DJ Night</h3>
+                    <p class = "subtitle">Dance the night away with electrifying music from our talented DJs and special performances.</p>
+                    <div class="details">
+                        <div class="detail-items">
+                            <span class="detail-icon"><i class="fas fa-clock"></i></span>
+                            <span>9:00pm to 1:00 a on 17 oct</span>
+                        <div class="detail-item">
+                            <span class="detail-icon"><i class="fas fa-map-marker-alt"></i></span>
+                            <span>Main Ground</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon"><i class="fas fa-hourglass-half"></i></span>
+                            <span>Ongoing</span>
+                        </div>
+                    </div>
+                    <a href="#" class="register-btn">Register for DJ Night</a>
+                </div>            </div>
+
+                 <div class ="event">
+                     </div>
+            
+                <div class="event-content">
+                    <h3>Cultural Events</h3>
+                    <p class = "subtitle">Enjoy performances including dance, music, drama, and more from our talented students.</p>
+                    <div class="details">
+                        <div class="detail-items">
+                            <span class="detail-icon"><i class="fas fa-clock"></i></span>
+                            <span>4:00pm to 8:00pm on 17 oct</span>
+                        <div class="detail-item">
+                            <span class="detail-icon"><i class="fas fa-map-marker-alt"></i></span>
+                            <span>Multipurpose Hall</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon"><i class="fas fa-hourglass-half"></i></span>
+                            <span>Ongoing</span>
+                        </div>
+                    </div>
+                    <a href="#" class="register-btn">Register for Cultural Events</a>
+                </div>     
+                <footer>
+                    <div class="contact">
+                        <h3>Contact us</h3>
+                        <p>Email:nirvanafest@gmail.com | Phone number: xxxxxxx99</p>
+
+                    </div>
+                    <p>2025 Nirvana Tech Fest 2025 </p>
+                     <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+                    
+                </footer>    
+    </div>  
+</body>
+</html>
